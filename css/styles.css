@@ -1,0 +1,121 @@
+/* HTML ELEMENTS */
+body {
+  font-family: 'Montserrat';
+  background-color: #B2B2B2;
+  /* background-color: #F5EFE6; /* TODO: REVERT TO THIS COLOR WHEN DONE */
+}
+
+h2 {
+  margin: 20px;
+  font-size: 2.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #C55300;
+}
+
+/* BANNER SECTION */
+#banner-section {
+  margin-bottom: 50px;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #EDE4E0;
+  border-bottom: 2px solid #C55300;
+  border-radius: 2%;
+  margin-bottom: 10px;
+}
+
+.navbar-brand {
+  font-family: 'Lato';
+  font-size: 1.5rem;
+  margin: 10px 20px;
+}
+
+.banner-text {
+  font-family: 'Abyssinica';
+  font-size: 4rem;
+  margin: 5% 7%;
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.banner-img-subscript {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+/* INTRO SECTION */
+#intro-section {
+  background-color: #9ED2C6;
+  padding: 3% 5%;
+}
+
+/* SHOWCASE section */
+#showcase-section {
+  padding: 4px;
+  background-color: #F5EFE6;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 3% 5%;
+}
+
+.carousel-img {
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  margin: 30px 0 140px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  .row {
+    position: static;
+    text-align: center;
+  }
+  .navbar{
+    position: sticky;
+  }
+  .banner-text {
+    font-size: 3rem;
+  }
+
+  h1, h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+}
+
+/* ALBUM SECTION */
+#gallery-section {
+  background-color: #9ED2C6;
+}
+
+/* CONTACT SECTION  */
+#contact-section {
+  text-align: center;
+  padding: 3% 5%;
+  background-color: #F5EFE6;
+}
+
+.contact-txt {
+  font-size: 1.2rem;
+  padding: 3% 5%
+}
+
+/* FOOTER SECTIONS */
+#footer-section {
+  background-color: #9ED2C6;
+  text-align: center;
+}

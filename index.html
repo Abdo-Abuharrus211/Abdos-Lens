@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Abdo's Lens</title>
+  <!---ADDING BOOTSTRAP-->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- GOOGLE FONTS HERE -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Kalam:wght@300&family=Lato&family=Montserrat:wght@400;900&family=Roboto&display=swap" rel="stylesheet">
+  <!-- CSS LINKING HERE -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- FONTAWESOME SCRIPT HERE -->
+  <script src="https://kit.fontawesome.com/3715e2b643.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- INTRO SECTION INCLUDING...INTORDUCTION AND IMAGE -->
+  <section id="banner-section">
+    <div class="container-fluid">
+      <!-- NAV BAR -->
+      <nav class="navbar navbar-lg-expand navbar-light-outline fixed-top">
+        <a class="navbar-brand" href="#">ABDO'S LENS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <!-- THESE ITEMS ARE PLACEHOLDERS -->
+              <a class="nav-link" href="#">Lorem ipsum</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#gallery-section">Gallery</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact-section">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- INTRO BANNER, TITLE, AND STUFF -->
+      <div class="row banner">
+        <div class="col-lg-4">
+          <h1 class="banner-text">
+            A Collection Of Memories From My Travels
+          </h1>
+        </div>
+        <div class="col-lg-8">
+          <img class="banner-img" src="images/Gaber-Oun 2017/Surfing landcruiser BW.jpeg" alt="picture of 4x4">
+          <p class="banner-img-subscript"> <em>An 80-series Landcruiser riding along the dune trail.</em></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro-section">
+    <div class="container-fluid">
+      <div class="row intro">
+        <div class="col-lg-4 intro-img">
+          <h2 class="intro-header">A Little Something About Me.</h2>
+          <img src="#" alt="profile picture">
+        </div>
+        <div class="col-lg-8 intro-txt">
+          <p> My name's Abdulqadir Abuharrus, but go by Abdo, a Comp Sci student from Tripoli, Libya.
+            <br>I grew up swimming and camping along the mediterranean coast,
+            and thanks to my dad, cultivated a love for the outdoors and travel.
+            <br> I'm incredibely fortunate to have traveled and experienced the things I have at my age, and
+            would like to share them with you here
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SECTION FOR THE GALLERY SHOWCASING COVERS -->
+  <section id="showcase-section">
+    <div id="showcase-carousel" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+      <div class="carousel-inner">
+        <!-- CAROUSEL ITEM -->
+        <div class="carousel-item active">
+          <img src="images\Vancouver\lions gate bridge.jpg" class="carousel-img" alt="photo of Lions Gate bridge">
+          <a class="trip-link" href="#">
+            <h2 class="case-header"><em>Vancouver,BC 2021-</em></h2>
+          </a>
+          <p class="case-txt">From my time in Vancouver, British Columbia.</p>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images\Tunnel Bluffs,BC 2022\DSC02192.JPG" class="carousel-img" alt="Trail sign.">
+          <a class="trip-link" href="#">
+            <h2 class="case-header"><em>Tunnel Bluffs, BC July 2022</em></h2>
+          </a>
+          <p class="case-txt">The Tunnel Bluffs trail leads to a ridge overlooking
+            Howe Sound, BC.</p>
+        </div>
+
+        <div class="carousel-item">
+          <img src="images\Bin Dqish 2020\bin dqish dune.JPG" class="carousel-img" alt="photo of dune">
+          <a class="trip-link" href="Bin D'qish 2020.html">
+            <h2 class="case-header"><em>Bin D'qish, Libya 2020</em></h2>
+          </a>
+          <p class="case-txt">The dunes of Bin D'qish mark the end of Al-Hamada Al-Hamra</p>
+        </div>
+
+
+      </div>
+      <!-- Carousel buttons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#showcase-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#showcase-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <section id="gallery-section">
+    <h2> Gallery</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium arcu turpis,
+      non congue felis porta sit amet. Donec eu quam in diam varius vulputate. In sed lobortis sem.
+      Duis sem urna, vulputate nec vehicula a, efficitur quis sem. Mauris convallis lobortis tempus.
+      Aliquam sit amet erat elementum, laoreet quam in, molestie augue. Praesent metus ante,
+      consectetur in libero sed,feugiat vestibulum dui. Nulla iaculis, ligula non cursus lobortis,
+      turpis nisi hendrerit diam, ut laoreet odio turpis sed ante.
+      Nunc tellus sem, aliquet vel consectetur eu, luctus sed nibh.
+    </p>
+  </section>
+
+  <section id="contact-section">
+    <div class="contact-me">
+      <h1>Contact me!</h1>
+      <p class="contact-txt">Whether it's to chat about the places I've been or just wanna
+        preach how great Landcruisers are, please feel free to reach out. </p>
+      <a class="btn btn-outline-dark btn-lg" href="mailto:aabuharrus@gmail.com">Email.</a>
+    </div>
+  </section>
+
+  <section id="footer-section">
+    <div class="container-fluid">
+      <a class="btn" href="https://www.instagram.com/abdulqadir_abuharrus/" target="_blank">
+        <i class="fa-brands fa-lg fa-instagram"></i></a>
+      <a class="btn" href="https://www.facebook.com/Abdulqadir.Abuharrus/" target="_blank">
+        <i class="fa-brands fa-lg fa-facebook"></i></a>
+      <a class="btn" href="https://www.linkedin.com/in/aabuharrus/" target="_blank">
+        <i class="fa-brands fa-lg fa-linkedin"></i></a>
+      <p>© Copyright Abdulqadir Abuharrus</p>
+    </div>
+  </section>
+
+
+  <!-- jQuery & JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
