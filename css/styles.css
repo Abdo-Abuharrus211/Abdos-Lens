@@ -1,8 +1,8 @@
 /* HTML ELEMENTS */
 body {
+  text-align: center;
   font-family: 'Montserrat';
-  background-color: #B2B2B2;
-  /* background-color: #F5EFE6; /* TODO: REVERT TO THIS COLOR WHEN DONE */
+  background-color: #F5EFE6;
 }
 
 h2 {
@@ -30,16 +30,29 @@ a:hover {
   border-radius: 2%;
   margin-bottom: 10px;
 }
-.navbar-toggler{
+
+.navbar-toggler {
   margin-right: 2%;
 }
-.collapse{
+
+.collapse {
+  font-size: 1.2rem;
   background-color: #B2B2B2;
+  padding: 1% 3%;
 }
+
+.nav-link {
+  color: #474E68;
+}
+
+.nav-link:hover {
+  color: #C55300;
+}
+
 .navbar-brand {
   font-family: 'Lato';
   font-size: 1.5rem;
-  margin: 10px 20px;
+  margin: 7px 20px;
 }
 
 .banner-text {
@@ -59,19 +72,19 @@ a:hover {
 
 /* INTRO SECTION */
 #intro-section {
-  background-color: #9ED2C6;
+  background-color: #BAD1C2;
   padding: 3% 5%;
 }
 
 /* SHOWCASE section */
 #showcase-section {
-  padding: 4px;
+  padding: 2px;
   background-color: #F5EFE6;
   text-align: center;
 }
 
 .carousel-item {
-  padding: 3% 5%;
+  padding: 2% 5%;
 }
 
 .carousel-img {
@@ -83,16 +96,15 @@ a:hover {
   margin: 30px 0 140px;
 }
 
-
 /* ALBUM SECTION */
 #gallery-section {
-  background-color: #9ED2C6;
+  background-color: #BAD1C2;
 }
 
 /* CONTACT SECTION  */
 #contact-section {
   text-align: center;
-  padding: 3% 5%;
+  padding: 2% 5%;
   background-color: #F5EFE6;
 }
 
@@ -103,13 +115,9 @@ a:hover {
 
 /* FOOTER SECTIONS */
 #footer-section {
-  background-color: #9ED2C6;
+  background-color: #BAD1C2;
   text-align: center;
 }
-
-
-
-
 
 /* MEDIA QUERY */
 @media (max-width: 1028px) {
@@ -117,19 +125,21 @@ a:hover {
     position: static;
     text-align: center;
   }
-  .navbar{
+
+  .navbar {
     position: sticky;
   }
-  .contact-txt{
+
+  .contact-txt {
     font-size: 0.9rem;
   }
+
   .banner-text {
     font-size: 3rem;
   }
+
   h1, h2 {
     text-align: center;
     font-size: 1.5rem;
   }
-
-
 }
