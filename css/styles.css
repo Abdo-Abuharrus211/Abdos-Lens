@@ -20,7 +20,7 @@ a:hover {
 
 /* BANNER SECTION */
 #banner-section {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 /* NAVBAR */
@@ -30,7 +30,12 @@ a:hover {
   border-radius: 2%;
   margin-bottom: 10px;
 }
-
+.navbar-toggler{
+  margin-right: 2%;
+}
+.collapse{
+  background-color: #B2B2B2;
+}
 .navbar-brand {
   font-family: 'Lato';
   font-size: 1.5rem;
@@ -78,24 +83,6 @@ a:hover {
   margin: 30px 0 140px;
 }
 
-/* MEDIA QUERY */
-@media (max-width: 1028px) {
-  .row {
-    position: static;
-    text-align: center;
-  }
-  .navbar{
-    position: sticky;
-  }
-  .banner-text {
-    font-size: 3rem;
-  }
-
-  h1, h2 {
-    text-align: center;
-    font-size: 2rem;
-  }
-}
 
 /* ALBUM SECTION */
 #gallery-section {
@@ -111,11 +98,38 @@ a:hover {
 
 .contact-txt {
   font-size: 1.2rem;
-  padding: 3% 5%
+  margin: 3% 15%
 }
 
 /* FOOTER SECTIONS */
 #footer-section {
   background-color: #9ED2C6;
   text-align: center;
+}
+
+
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 1028px) {
+  .row {
+    position: static;
+    text-align: center;
+  }
+  .navbar{
+    position: sticky;
+  }
+  .contact-txt{
+    font-size: 0.9rem;
+  }
+  .banner-text {
+    font-size: 3rem;
+  }
+  h1, h2 {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+
 }
